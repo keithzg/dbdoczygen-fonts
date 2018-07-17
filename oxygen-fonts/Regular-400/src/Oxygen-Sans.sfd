@@ -126,7 +126,7 @@ SplineSet
  444 592 l 1
  922 592 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: AE
@@ -347,7 +347,7 @@ SplineSet
  1200 67 l 1
  1147 40 1009 -19 815 -19 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Cacute
@@ -528,7 +528,7 @@ SplineSet
  1049 0 l 1
  164 0 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Eacute
@@ -1116,7 +1116,7 @@ SplineSet
  547 296 l 2
  547 -4 437 -134 112 -168 c 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Jcircumflex
@@ -1392,7 +1392,7 @@ SplineSet
  471 1341 297 1083 297 721 c 0
  297 375 459 120 809 120 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: OE
@@ -1900,7 +1900,7 @@ SplineSet
  1278 526 l 2
  1278 211 1090 -19 706 -19 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: Uacute
@@ -2352,7 +2352,7 @@ SplineSet
  97 513 242 619 585 619 c 2
  754 619 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: aacute
@@ -2970,7 +2970,7 @@ SplineSet
  393 952 254 786 254 524 c 0
  254 287 369 108 611 108 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: cacute
@@ -3550,7 +3550,7 @@ SplineSet
  399 953 277 822 258 611 c 1
  834 611 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: eacute
@@ -5208,7 +5208,7 @@ SplineSet
  362 953 254 774 254 527 c 0
  254 286 361 106 582 106 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: oacute
@@ -6800,7 +6800,7 @@ SplineSet
  826 1058 l 1
  992 1058 l 1xb8
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: uacute
@@ -7626,7 +7626,7 @@ SplineSet
  382 -272 299 -345 79 -371 c 2
  20 -378 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: uni0307
@@ -8383,9 +8383,9 @@ StartChar: zero
 Encoding: 16 48 424
 Width: 1204
 VWidth: 0
-Flags: HWO
-HStem: -29 135<468.341 744.519> 1345 135<467.96 748.508>
-VStem: 114 165<375.461 1069.71> 925 165<361.261 1087.03>
+Flags: W
+HStem: -29 135<468.363 744.519> 1345 135<467.96 751.099>
+VStem: 114 165<375.229 1069.71> 925 165<361.261 1090.45>
 LayerCount: 2
 Fore
 SplineSet
