@@ -14,7 +14,12 @@ here we are!
 ## Requirements
 
 You'll need at least FontForge, as well as `eot-utils` (that's the *buntu
-package, at least) for the EOT output.
+package, at least) for the EOT output. On Debian or Ubuntu, then, you should
+run:
+
+```
+apt install fontforge eot-utils
+```
 
 ## Design
 

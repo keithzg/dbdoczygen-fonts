@@ -1,0 +1,10 @@
+CMakeCache.txt
+CMakeFiles/
+Makefile
+OxygenFontConfig.cmake
+OxygenFontConfigVersion.cmake
+cmake_install.cmake
+prefix.sh
+oxygen-fonts/*/*.eot
+oxygen-fonts/*/*.ttf
+oxygen-fonts/*/*.woff

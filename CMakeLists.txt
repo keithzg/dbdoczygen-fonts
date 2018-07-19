@@ -53,7 +53,7 @@ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 add_custom_target(regular_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/Oxygen-GMCL-Sans.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Oxygen-Sans.ttf
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.ttf
                   )
 add_custom_target(regular_eot ALL mkeot 
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.ttf > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.eot
