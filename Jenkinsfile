@@ -15,6 +15,9 @@ pipeline {
 				archiveArtifacts artifacts: 'oxygen-fonts/mono-400/OxygenMono-Regular.ttf'
 				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.ttf'
 				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.ttf'
+				archiveArtifacts artifacts: 'oxygen-fonts/mono-400/OxygenMono-Regular.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.eot'
 			}
 		}
 	}
