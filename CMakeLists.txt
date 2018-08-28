@@ -74,14 +74,14 @@ add_custom_target(mono_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-tt
                    ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.ttf
                   )
 add_custom_target(mono_eot ALL mkeot 
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/Hypoxia-Mono.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.eot
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.eot
                   )
 add_dependencies(mono_eot mono_ttf)
 
 set(fontFiles
     ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.ttf
     ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf
-    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/Hypoxia-Mono.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.ttf
 )
 
 install(FILES ${fontFiles} DESTINATION ${OXYGEN_FONT_INSTALL_DIR})
