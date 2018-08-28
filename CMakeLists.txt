@@ -54,46 +54,46 @@ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 set(DBDOC_URI "dbdoc://resources/")
 
 add_custom_target(regular_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/Hypoxia-Sans.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.ttf
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/dbdoczygen-Sans.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/dbdoczygen-Sans.ttf
                   )
 add_custom_target(regular_woff2 ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/Hypoxia-Sans.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.woff2
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/dbdoczygen-Sans.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/dbdoczygen-Sans.woff2
                   )
 add_custom_target(regular_eot ALL mkeot 
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.eot
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/dbdoczygen-Sans.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/dbdoczygen-Sans.eot
                   )
 add_dependencies(regular_eot regular_ttf)
 add_custom_target(bold_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/src/Hypoxia-Sans-Bold.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/src/dbdoczygen-Sans-Bold.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.ttf
                   )
 add_custom_target(bold_woff2 ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/src/Hypoxia-Sans-Bold.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.woff2
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/src/dbdoczygen-Sans-Bold.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.woff2
                   )
 add_custom_target(bold_eot ALL mkeot 
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.eot
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.eot
                   )
 add_dependencies(bold_eot bold_ttf)
 add_custom_target(mono_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/src/Hypoxia-Mono.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.ttf
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/src/dbdoczygen-Mono.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/dbdoczygen-Mono.ttf
                   )
 add_custom_target(mono_woff2 ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/src/Hypoxia-Mono.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.woff2
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/src/dbdoczygen-Mono.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/dbdoczygen-Mono.woff2
                   )
 add_custom_target(mono_eot ALL mkeot 
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.eot
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/dbdoczygen-Mono.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/dbdoczygen-Mono.eot
                   )
 add_dependencies(mono_eot mono_ttf)
 
 set(fontFiles
-    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.ttf
-    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf
-    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/dbdoczygen-Sans.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/dbdoczygen-Mono.ttf
 )
 
 install(FILES ${fontFiles} DESTINATION ${OXYGEN_FONT_INSTALL_DIR})

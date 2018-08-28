@@ -5,18 +5,18 @@
   <project_group>GMCL</project_group>
   <project_license>OFL-1.1 or GPL-3.0+</project_license>
 
-  <name>Hypoxia Fonts</name>
+  <name>dbdoczygen Fonts</name>
   <summary>A desktop/gui font family based on the Oxygen family</summary>
 
   <description>
     <p>
-      Hypoxia is a font designed for a desktop/gui. It was based on Vernon Adams' wonderful Oxygen fonts (in fact, the differences are minimal, and likely mostly for the worse).
+      dbdoczygen is a font designed for a desktop/gui. It was based on Vernon Adams' wonderful Oxygen fonts (in fact, the differences are minimal, and likely mostly for the worse).
     </p>
   </description>
 
   <provides>
-    <font>Hypoxia Sans Book</font>
-    <font>Hypoxia Sans Bold</font>
-    <font>Hypoxia Mono</font>
+    <font>dbdoczygen Sans Book</font>
+    <font>dbdoczygen Sans Bold</font>
+    <font>dbdoczygen Mono</font>
   </provides>
 </component>

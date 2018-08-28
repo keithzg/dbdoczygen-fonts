@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: Hypoxia-Mono
-FullName: Hypoxia Mono
-FamilyName: Hypoxia Mono
+FontName: dbdoczygen-Mono
+FullName: dbdoczygen Mono
+FamilyName: dbdoczygen Mono
 Weight: Book
 Copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk) |  Copyright (c) 2018, Keith Zubot-Gephart and G. Michaels Consulting Ltd. (keith@gmcl.com)
 Version: 0.201; ttfautohint (v0.8) -r 50 -G 200 -x
@@ -42,7 +42,7 @@ HheadDOffset: 0
 OS2Vendor: 'newt'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "GMCL : Hypoxia Mono" "" "Version 0.3" "" "" "" "" "Copyright (c) 2011-12 by Vernon Adams, Copyright (c) 2018 Keith Zubot-Gephart and G. Michaels Consulting Ltd. (keith@gmcl.com)" "newtypography.co.uk" "newtypography.co.uk" "" "http://scripts.sil.org/OFL" "" "Hypoxia Mono" "Regular" "Hypoxia Mono"
+LangName: 1033 "" "" "" "GMCL : dbdoczygen Mono" "" "Version 0.3" "" "" "" "" "Copyright (c) 2011-12 by Vernon Adams, Copyright (c) 2018 Keith Zubot-Gephart and G. Michaels Consulting Ltd. (keith@gmcl.com)" "newtypography.co.uk" "newtypography.co.uk" "" "http://scripts.sil.org/OFL" "" "dbdoczygen Mono" "Regular" "dbdoczygen Mono"
 PickledData: "(dp1
 S'com.typemytype.robofont.foreground.layerStrokeColor'
 p2
