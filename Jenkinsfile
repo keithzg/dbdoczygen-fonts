@@ -12,12 +12,12 @@ pipeline {
 			steps {
 				echo 'Building fonts'
 				sh 'cmake . && make'
-				archiveArtifacts artifacts: 'oxygen-fonts/mono-400/OxygenMono-Regular.ttf'
-				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.ttf'
-				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.ttf'
-				archiveArtifacts artifacts: 'oxygen-fonts/mono-400/OxygenMono-Regular.eot'
-				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.eot'
-				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Hypoxia-Sans.ttf'
+				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Hypoxia-Sans.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf'
+				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/Hypoxia-Mono.ttf'
+				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/Hypoxia-Mono.eot'
 			}
 		}
 	}

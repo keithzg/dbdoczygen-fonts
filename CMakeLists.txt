@@ -32,7 +32,7 @@ install(FILES
         COMPONENT Devel)
 
 if(NOT DEFINED OXYGEN_FONT_INSTALL_DIR)
-  set(OXYGEN_FONT_INSTALL_DIR  ${CMAKE_INSTALL_PREFIX}/${SHARE_INSTALL_PREFIX}/fonts/truetype/oxygen)
+  set(OXYGEN_FONT_INSTALL_DIR  ${CMAKE_INSTALL_PREFIX}/${SHARE_INSTALL_PREFIX}/fonts/truetype/hypoxia)
 endif()
 
 find_program(FONTFORGE_EXECUTABLE NAMES fontforge)
@@ -54,34 +54,34 @@ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 set(DBDOC_URI "dbdoc://resources/")
 
 add_custom_target(regular_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/Oxygen-GMCL-Sans.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.ttf
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/Hypoxia-Sans.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.ttf
                   )
 add_custom_target(regular_eot ALL mkeot 
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.eot
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.eot
                   )
 add_dependencies(regular_eot regular_ttf)
 add_custom_target(bold_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/src/Oxygen-GMCL-Sans-Bold.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.ttf
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/src/Hypoxia-Sans-Bold.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf
                   )
 add_custom_target(bold_eot ALL mkeot 
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.eot
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.eot
                   )
 add_dependencies(bold_eot bold_ttf)
 add_custom_target(mono_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/src/OxygenMono-Regular.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/mono-400/OxygenMono-Regular.ttf
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/src/Hypoxia-Mono.sfd
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.ttf
                   )
 add_custom_target(mono_eot ALL mkeot 
-                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/OxygenMono-Regular.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/OxygenMono-Regular.eot
+                   ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/Hypoxia-Mono.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Hypoxia-Mono.eot
                   )
 add_dependencies(mono_eot mono_ttf)
 
 set(fontFiles
-    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/OxygenMono-Regular.ttf
-    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Oxygen-GMCL-Sans-Bold.ttf
-    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Oxygen-GMCL-Sans.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Hypoxia-Sans.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Hypoxia-Sans-Bold.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/mono-400/Hypoxia-Mono.ttf
 )
 
 install(FILES ${fontFiles} DESTINATION ${OXYGEN_FONT_INSTALL_DIR})

@@ -1,9 +1,9 @@
 SplineFontDB: 3.0
-FontName: OxygenMono-Regular
-FullName: Oxygen Mono
-FamilyName: Oxygen Mono
+FontName: Hypoxia-Mono
+FullName: Hypoxia Mono
+FamilyName: Hypoxia Mono
 Weight: Book
-Copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'
+Copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk) |  Copyright (c) 2018, Keith Zubot-Gephart and G. Michaels Consulting Ltd. (keith@gmcl.com)
 Version: 0.201; ttfautohint (v0.8) -r 50 -G 200 -x
 ItalicAngle: 0
 UnderlinePosition: -119
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1345291289
-ModificationTime: 1535411632
+ModificationTime: 1535494698
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -42,7 +42,7 @@ HheadDOffset: 0
 OS2Vendor: 'newt'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "newtypography : Oxygen Mono" "" "Version 0.2" "" "Oxygen Mono is a trademark of vernon adams." "Vernon Adams" "Vernon Adams" "Copyright (c) 2011-12 by vernon adams. All rights reserved." "newtypography.co.uk" "newtypography.co.uk" "" "http://scripts.sil.org/OFL" "" "Oxygen Mono" "Regular" "Oxygen Mono"
+LangName: 1033 "" "" "" "GMCL : Hypoxia Mono" "" "Version 0.3" "" "" "" "" "Copyright (c) 2011-12 by Vernon Adams, Copyright (c) 2018 Keith Zubot-Gephart and G. Michaels Consulting Ltd. (keith@gmcl.com)" "newtypography.co.uk" "newtypography.co.uk" "" "http://scripts.sil.org/OFL" "" "Hypoxia Mono" "Regular" "Hypoxia Mono"
 PickledData: "(dp1
 S'com.typemytype.robofont.foreground.layerStrokeColor'
 p2
