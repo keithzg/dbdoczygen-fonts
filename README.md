@@ -16,8 +16,7 @@ apt install fontforge eot-utils
 
 ## Design
 
-dbdoczygen was to be constructed closely with the gridfitting aspects of the Freetype engine. The fonts were to also be autohinted with Werner Lemberg's "ttfautohint" library to further the compatibility with the Freetype engine. The aim of this approach is to produce a
-family of freetype-specific desktop fonts whose appearance will stay uniform under different screen render settings, unlike more traditionally designed 'screen fonts' that have tended to be designed for best legibility on the Windows GDI render engine.
+Oxygen, the basis for dbdoczygen, was to be constructed closely with the gridfitting aspects of the Freetype engine. The fonts were to also be autohinted with Werner Lemberg's "ttfautohint" library to further the compatibility with the Freetype engine. The aim of this approach was to produce a family of freetype-specific desktop fonts whose appearance would stay uniform under different screen render settings, unlike more traditionally designed 'screen fonts' that have tended to be designed for best legibility on the Windows GDI render engine.
 
 Then, ironically, it was used by G. Michaels Consulting Ltd. as a font purely for Windows, modified to have slashes on the zeroes.
 
