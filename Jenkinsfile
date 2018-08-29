@@ -12,15 +12,15 @@ pipeline {
 			steps {
 				echo 'Building fonts'
 				sh 'cmake . && make'
-				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/dbdoczygen-Sans.ttf'
-				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/dbdoczygen-Sans.woff2'
-				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/dbdoczygen-Sans.eot'
-				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.ttf'
-				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.woff2'
-				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/dbdoczygen-Sans-Bold.eot'
-				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/dbdoczygen-Mono.ttf'
-				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/dbdoczygen-Mono.woff2'
-				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/dbdoczygen-Mono.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Dbdoczygen-Sans.ttf'
+				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Dbdoczygen-Sans.woff2'
+				archiveArtifacts artifacts: 'oxygen-fonts/Regular-400/Dbdoczygen-Sans.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Dbdoczygen-Sans-Bold.ttf'
+				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Dbdoczygen-Sans-Bold.woff2'
+				archiveArtifacts artifacts: 'oxygen-fonts/Bold-700/Dbdoczygen-Sans-Bold.eot'
+				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/Dbdoczygen-Mono.ttf'
+				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/Dbdoczygen-Mono.woff2'
+				archiveArtifacts artifacts: 'oxygen-fonts/Mono-400/Dbdoczygen-Mono.eot'
 			}
 		}
 	}

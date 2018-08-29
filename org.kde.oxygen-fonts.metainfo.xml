@@ -5,18 +5,18 @@
   <project_group>GMCL</project_group>
   <project_license>OFL-1.1 or GPL-3.0+</project_license>
 
-  <name>dbdoczygen Fonts</name>
+  <name>Dbdoczygen Fonts</name>
   <summary>A desktop/gui font family based on the Oxygen family</summary>
 
   <description>
     <p>
-      dbdoczygen is a font designed for a desktop/gui. It was based on Vernon Adams' wonderful Oxygen fonts (in fact, the differences are minimal, and likely mostly for the worse).
+      Dbdoczygen is a font designed for a desktop/gui. It was based on Vernon Adams' wonderful Oxygen fonts (in fact, the differences are minimal, and likely mostly for the worse).
     </p>
   </description>
 
   <provides>
-    <font>dbdoczygen Sans Book</font>
-    <font>dbdoczygen Sans Bold</font>
-    <font>dbdoczygen Mono</font>
+    <font>Dbdoczygen Sans Book</font>
+    <font>Dbdoczygen Sans Bold</font>
+    <font>Dbdoczygen Mono</font>
   </provides>
 </component>
