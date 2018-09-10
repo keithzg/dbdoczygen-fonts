@@ -80,7 +80,7 @@ add_custom_target(mono_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-tt
                    ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.ttf
                   )
 add_custom_target(mono_woff2 ALL woff2_compress
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.woff2
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.ttf
                   )
 add_custom_target(mono_eot ALL mkeot 
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.eot
