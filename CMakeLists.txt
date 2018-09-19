@@ -59,7 +59,7 @@ add_custom_target(regular_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate
                   )
 add_custom_target(regular_otf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/src/Dbdoczygen-Sans.sfd
-                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Dbdoczygen-Sans.otff
+                   ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Dbdoczygen-Sans.otf
                   )
 add_custom_target(regular_woff2 ALL woff2_compress
                    ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Regular-400/Dbdoczygen-Sans.ttf
