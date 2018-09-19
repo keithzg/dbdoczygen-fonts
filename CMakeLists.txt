@@ -67,7 +67,8 @@ add_custom_target(regular_woff2 ALL woff2_compress
 add_custom_target(regular_eot ALL mkeot 
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Dbdoczygen-Sans.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Dbdoczygen-Sans.eot
                   )
-add_dependencies(regular_eot regular_woff2 regular_otf regular_ttf)
+add_dependencies(regular_eot regular_ttf)
+add_dependencies(regular_woff2 regular_ttf)
 add_custom_target(bold_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/src/Dbdoczygen-Sans-Bold.sfd
                    ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Bold-700/Dbdoczygen-Sans-Bold.ttf
@@ -82,7 +83,8 @@ add_custom_target(bold_woff2 ALL woff2_compress
 add_custom_target(bold_eot ALL mkeot 
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Dbdoczygen-Sans-Bold.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Bold-700/Dbdoczygen-Sans-Bold.eot
                   )
-add_dependencies(bold_eot bold_woff2 bold_otf bold_ttf)
+add_dependencies(bold_eot bold_ttf)
+add_dependencies(bold_woff2 bold_ttf)
 add_custom_target(mono_ttf ALL fontforge ${CMAKE_CURRENT_SOURCE_DIR}/generate-ttf.pe
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/src/Dbdoczygen-Mono.sfd
                    ${CMAKE_CURRENT_BINARY_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.ttf
@@ -97,7 +99,8 @@ add_custom_target(mono_woff2 ALL woff2_compress
 add_custom_target(mono_eot ALL mkeot 
                    ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.ttf "${DBDOC_URI}" > ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Mono-400/Dbdoczygen-Mono.eot
                   )
-add_dependencies(mono_eot mono_woff2 mono_otf mono_ttf)
+add_dependencies(mono_eot mono_ttf)
+add_dependencies(mono_woff2 mono_ttf)
 
 set(fontFiles
     ${CMAKE_CURRENT_SOURCE_DIR}/oxygen-fonts/Regular-400/Dbdoczygen-Sans.ttf
