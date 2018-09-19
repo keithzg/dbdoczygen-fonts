@@ -8,10 +8,10 @@ G. Michaels Consulting Ltd. then wanted slashes on the zeroes and then some chan
 
 ## Requirements
 
-You'll need at least FontForge, as well as `eot-utils` (that's the *buntu package, at least) for the EOT output. On Debian or Ubuntu, then, you should run:
+You'll need at least FontForge, as well as `eot-utils` (that's the *buntu package, at least) for the EOT output and `woff2_compress` (from the woff2 package). On Debian or Ubuntu, then, you should run:
 
 ```
-apt install fontforge eot-utils
+apt install fontforge eot-utils woff2
 ```
 
 ## Design
