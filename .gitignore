@@ -6,5 +6,6 @@ OxygenFontConfigVersion.cmake
 cmake_install.cmake
 prefix.sh
 oxygen-fonts/*/*.eot
+oxygen-fonts/*/*.otf
 oxygen-fonts/*/*.ttf
-oxygen-fonts/*/*.woff
+oxygen-fonts/*/*.woff2
