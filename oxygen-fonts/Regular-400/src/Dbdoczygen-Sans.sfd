@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1370895181
-ModificationTime: 1537914034
+ModificationTime: 1537994704
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -80,7 +80,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 9
+WinInfo: 26 13 4
 BeginPrivate: 10
 ForceBold 5 false
 BlueValues 27 [-20 0 1058 1080 1460 1480]
@@ -260,6 +260,7 @@ LayerCount: 2
 Fore
 Refer: 261 731 N 1 0 0 1 846 -4 2
 Refer: 0 65 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Aring
@@ -390,6 +391,7 @@ LayerCount: 2
 Fore
 Refer: 160 184 N 1 0 0 1 410 -16.1333 2
 Refer: 12 67 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Ccircumflex
@@ -479,6 +481,7 @@ SplineSet
  61 694 l 1
 EndSplineSet
 Refer: 18 68 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Delta
@@ -686,6 +689,7 @@ LayerCount: 2
 Fore
 Refer: 261 731 N 1 0 0 1 406 -4 2
 Refer: 22 69 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Eth
@@ -706,6 +710,7 @@ SplineSet
  658 795 l 1
 EndSplineSet
 Refer: 18 68 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Euro
@@ -734,6 +739,7 @@ SplineSet
  874 524 l 1xf4
 EndSplineSet
 Refer: 12 67 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: F
@@ -1078,6 +1084,7 @@ LayerCount: 2
 Fore
 Refer: 261 731 N 1 0 0 1 48 9.8 2
 Refer: 44 73 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Itilde
@@ -1544,6 +1551,7 @@ SplineSet
  515 -228 l 1
 EndSplineSet
 Refer: 70 79 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Otilde
@@ -1606,6 +1614,7 @@ SplineSet
  1260 -401 l 1
 EndSplineSet
 Refer: 70 79 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: R
@@ -1752,6 +1761,7 @@ LayerCount: 2
 Fore
 Refer: 160 184 N 1 0 0 1 348 -17 2
 Refer: 87 83 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Scircumflex
@@ -1844,6 +1854,7 @@ LayerCount: 2
 Fore
 Refer: 160 184 S 1 0 0 1 303 3 2
 Refer: 93 84 S 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Thorn
@@ -2013,6 +2024,7 @@ LayerCount: 2
 Fore
 Refer: 261 731 S 1 0 0 1 396 -4 2
 Refer: 98 85 S 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: Uring
@@ -3033,6 +3045,7 @@ LayerCount: 2
 Fore
 Refer: 160 184 N 1 0 0 1 222 -17.1333 2
 Refer: 153 99 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: ccircumflex
@@ -3105,6 +3118,7 @@ SplineSet
  548 -278 l 1
 EndSplineSet
 Refer: 153 99 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: circumflex
@@ -3379,6 +3393,7 @@ SplineSet
  694 1232 l 1x3c
 EndSplineSet
 Refer: 167 100 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: degree
@@ -3481,6 +3496,7 @@ SplineSet
  638 1735 l 1xf4
 EndSplineSet
 Refer: 87 83 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: dotaccent
@@ -3804,6 +3820,7 @@ LayerCount: 2
 Fore
 Refer: 261 731 N 1 0 0 1 426 16 2
 Refer: 178 101 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: equal
@@ -4594,6 +4611,7 @@ LayerCount: 2
 Fore
 Refer: 261 731 N 1 0 0 1 -114 9.8 2
 Refer: 218 105 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: itilde
@@ -5502,6 +5520,7 @@ SplineSet
  293 -150 l 1
 EndSplineSet
 Refer: 256 111 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: otilde
@@ -6269,6 +6288,7 @@ LayerCount: 2
 Fore
 Refer: 160 184 N 1 0 0 1 209 -17 2
 Refer: 300 115 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: scircumflex
@@ -6529,6 +6549,7 @@ SplineSet
  65 622 l 1xe0
 EndSplineSet
 Refer: 313 116 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: tcaron
@@ -6570,19 +6591,20 @@ Encoding: 189 254 317
 Width: 1165
 VWidth: 0
 UnlinkRmOvrlpSave: 1
-Flags: W
-HStem: -464 21G<136 304> -20 127<451.511 768.873> 0 21G<136 272.613> 954 126<458.663 777.079> 1452 20G<136 304>
-VStem: 136 135<0 177.766> 136 168<-464 297 278.533 790.954 894 1460> 909 170<265.61 794.014>
+Flags: HMW
+HStem: -464 21G<136 304> -20 127<451.511 768.873> 954 126<458.663 777.079> 1452 20G<136 304>
+VStem: 136 168<-464 297 278.533 790.954 894 1460> 909 170<265.61 794.014>
 LayerCount: 2
 Fore
 SplineSet
-136 297 m 5x9b
- 304 297 l 5
+136 297 m 1
+ 304 297 l 1
  304 -464 l 1
  136 -464 l 1
- 136 297 l 5x9b
+ 136 297 l 1
 EndSplineSet
-Refer: 143 98 S 1 0 0 1 0 0 2
+Refer: 143 98 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: three
@@ -8032,6 +8054,7 @@ LayerCount: 2
 Fore
 Refer: 261 731 N 1 0 0 1 567 -4 2
 Refer: 323 117 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uring
@@ -8282,6 +8305,7 @@ SplineSet
  1030 284 l 1xf4
 EndSplineSet
 Refer: 116 89 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: ygrave
